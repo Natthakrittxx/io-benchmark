@@ -1,0 +1,10 @@
+# PDFs (course instructions + generated explainer)
+*.pdf
+
+# Data files written by ex1 (01-18) and ex2 (19), 1.4 GB total
+0[1-9]
+1[0-9]
+
+# Compiled programs
+ex1
+ex2

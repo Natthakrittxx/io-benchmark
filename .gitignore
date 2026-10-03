@@ -1,5 +1,6 @@
-# PDFs (course instructions + generated explainer)
+# PDFs (course instructions + generated explainer) and slides
 *.pdf
+*.pptx
 
 # Data files written by ex1 (01-18) and ex2 (19), 1.4 GB total
 0[1-9]

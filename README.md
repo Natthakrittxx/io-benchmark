@@ -23,6 +23,12 @@ cc -O2 -Wall -o ex2 ex2.c && ./ex2 > ex2.csv    # about 3 seconds, writes 256 MB
 
 `ex1` prints a progress counter and per-block-size averages to the terminal.
 
+Draw the charts from the two CSV files (needs `pip install matplotlib`):
+
+```sh
+python3 plot.py    # writes ex1_chart.png and ex2_chart.png
+```
+
 When finished, delete the data files:
 
 ```sh
@@ -35,6 +41,7 @@ rm 0[1-9] 1[0-9]
 |---|---|
 | `ex1.csv` | One row per phase per file: `phase,file,block_bytes,ms` (4,608 rows) |
 | `ex2.csv` | One row per test: `test,bytes,ms,MB_per_s` |
+| `ex1_chart.png`, `ex2_chart.png` | Charts drawn by `plot.py` |
 | `01`–`19` | Test data written by the programs. Not committed (see `.gitignore`); recreated on every run. |
 
 ## Results

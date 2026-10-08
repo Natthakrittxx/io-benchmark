@@ -21,7 +21,7 @@ Small C programs that measure raw file I/O using unbuffered system calls
 
 ```sh
 cc -O2 -Wall -o ex1 ex1.c && ./ex1 > ex1.csv    # about 2 minutes, writes 1.15 GB
-cc -O2 -Wall -o ex1_reserve_method ex1_reserve_method.c && ./ex1_reserve_method > ex1_reserve_method.csv    # about 2 minutes
+cc -O2 -Wall -o ex1_reserve_method ex1_reserve_method.c && ./ex1_reserve_method > ex1_reserve_method.csv    # about 2 minutes, writes 1.15 GB
 cc -O2 -Wall -o ex2 ex2.c && ./ex2 > ex2.csv    # about 3 seconds, writes 256 MB
 ```
 
